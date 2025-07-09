@@ -1,0 +1,86 @@
+{
+  "id": "xdd-consumer",
+  "name": "xdd-consumer",
+  "metaData": {
+    "name": "xdd-consumer",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "1.0.0",
+      "buildName": "xdd-consumer"
+    },
+    "remoteEntry": {
+      "name": "",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": ".",
+      "api": "."
+    },
+    "globalName": "xdd-consumer",
+    "pluginVersion": "0.16.0",
+    "prefetchInterface": false,
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "xdd-consumer:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/512.7c8aaef0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "*",
+      "eager": false,
+      "id": "xdd-consumer:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/async/987.469bd469.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "provider",
+      "consumingFederationContainerName": "xdd-consumer",
+      "federationContainerName": "rslib_provider",
+      "moduleName": ".",
+      "usedIn": [
+        "src/bootstrap.tsx + 2 modules"
+      ],
+      "entry": "http://localhost:3000/mf-manifest.json"
+    }
+  ],
+  "exposes": []
+}
