@@ -9,7 +9,7 @@
       "buildName": "xdd"
     },
     "remoteEntry": {
-      "name": "static/js/xdd.5e952f99.js",
+      "name": "static/js/xdd.e2fcb482.js",
       "path": "",
       "type": "global"
     },
@@ -61,7 +61,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/async/987.595343bb.js"
+            "static/js/async/987.05cc08c8.js"
           ]
         },
         "css": {
@@ -85,7 +85,7 @@
       "assets": {
         "js": {
           "sync": [
-            "static/js/async/__federation_expose_default_export.0bfa6815.js"
+            "static/js/async/__federation_expose_default_export.7d33d55a.js"
           ],
           "async": []
         },

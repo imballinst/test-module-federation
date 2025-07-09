@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/async/987.469bd469.js"
+            "static/js/async/987.90bfcc2b.js"
           ]
         },
         "css": {
@@ -69,7 +69,7 @@
       "federationContainerName": "rslib_provider",
       "moduleName": ".",
       "alias": "provider",
-      "entry": "http://localhost:3000/mf-manifest.json"
+      "entry": "http://localhost:3001/mf-manifest.json"
     }
   ],
   "exposes": []

@@ -59,7 +59,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/async/987.469bd469.js"
+            "static/js/async/987.90bfcc2b.js"
           ]
         },
         "css": {
@@ -79,7 +79,7 @@
       "usedIn": [
         "src/bootstrap.tsx + 2 modules"
       ],
-      "entry": "http://localhost:3000/mf-manifest.json"
+      "entry": "http://localhost:3001/mf-manifest.json"
     }
   ],
   "exposes": []
